@@ -5,17 +5,11 @@
     box-sizing: border-box;
     font-family:‘Edu TAS Beginner’, sans-serif;
 }
+body{
+    background-image: url(/assets/img/cork.png);
+}
 
 /*end-common*/
-
-/* utilities */
-
-
-
-
-
-
-/*end-utilities*/
 header{
     background-image:url(/assets/img/wall.png);
     padding: 2rem;
@@ -25,7 +19,33 @@ header{
         text-align: center;   
     }
 }
-main{
-    background-image: url(/assets/img/cork.png);
-    
+main{ 
+    .card_1{
+        padding: 1rem;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+        background-color: white;
+        position: relative;
+        .card_top{
+            text-align: center;
+            #pin{
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            #dogo{
+                width: 100%;
+            }
+            
+        }
+        .card_bot{
+            color: gray;
+            font-style: italic;
+            p{
+                font-family:‘Sometype Mono’, ‘monospace’;
+            }
+        }
+    }
 }

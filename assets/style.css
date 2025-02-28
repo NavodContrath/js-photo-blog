@@ -22,13 +22,14 @@ header{
 main{ 
     .card_1{
         padding: 1rem;
+        margin: auto;
         width: 100%;
         max-width: 400px;
-        margin: auto;
-        background-color: white;
+        background-color: white;    
         position: relative;
+        border: 1px solid black;
+        box-shadow: 1px 1px;
         .card_top{
-            text-align: center;
             #pin{
                 position: absolute;
                 top: 0;
@@ -38,7 +39,6 @@ main{
             #dogo{
                 width: 100%;
             }
-            
         }
         .card_bot{
             color: gray;

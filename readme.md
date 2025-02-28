@@ -32,3 +32,9 @@ date: ‘Sometype Mono’, ‘monospace’;
 2. Milestone
 - test of end-point in postman
 - how to integrate the response in my page
+3. Milestone
+- add fetch to js requesting form the API the elements to add in page
+- for each to cicle inside the response(array)
+- function to render the cards
+  - variable for the markup
+  - wep API insert adjacentHTML to add in page the markup

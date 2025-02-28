@@ -14,7 +14,7 @@ function renderCards(info) {
                         <img src="/assets/img/pin.svg" id="pin" alt="pin">
                         <img src="${card.url}" id="dogo" alt="dog_img">
                     </div>
-                    <div class="card_bot my-3">
+                    <div class="card_bot my-2">
                         <div>${card.date}</div>
                         <h2>${card.title.toUpperCase()}</h2>
                         
@@ -22,6 +22,5 @@ function renderCards(info) {
                 </div>
         </div>`
         displayerEl.insertAdjacentHTML("beforeend", markup)
-
     });
 }

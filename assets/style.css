@@ -1,5 +1,31 @@
+/*common*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:‘Edu TAS Beginner’, sans-serif;
+}
+
+/*end-common*/
+
+/* utilities */
+
+
+
+
+
+
+/*end-utilities*/
+header{
+    background-image:url(/assets/img/wall.png);
+    padding: 2rem;
+    h1{
+        font-size: 4rem;
+        font-style:italic;
+        text-align: center;   
+    }
+}
+main{
+    background-image: url(/assets/img/cork.png);
+    
 }

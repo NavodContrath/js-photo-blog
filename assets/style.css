@@ -41,8 +41,11 @@ main{
             }
         }
         .card_bot{
-            color: gray;
-            p{
+            h2{
+                font-weight: 700;
+            }
+            div{
+                color: gray;
                 font-family:'Sometype Mono', monospace;
             }
         }

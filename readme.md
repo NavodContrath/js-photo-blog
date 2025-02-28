@@ -28,4 +28,7 @@ date: ‘Sometype Mono’, ‘monospace’;
   - container
   - grid
   - card
-- style the page with css  
+- style the page with css
+2. Milestone
+- test of end-point in postman
+- how to integrate the response in my page

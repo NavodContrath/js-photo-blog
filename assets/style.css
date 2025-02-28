@@ -14,12 +14,16 @@ header{
     background-image:url(/assets/img/wall.png);
     padding: 2rem;
     h1{
-        font-size: 4rem;
-        font-weight: 500;
+        font-size: 5rem;
+        font-weight: bold;
         text-align: center;   
     }
 }
 main{ 
+    .container_photo{
+        width:75%;
+        margin:auto;
+    }
     .card_1{
         padding: 1rem;
         margin: auto;

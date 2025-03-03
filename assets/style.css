@@ -39,7 +39,7 @@ main{
                 left: 50%;
                 transform: translate(-50%,-50%);
             }
-            #card_img{
+            .card_img{
                 max-width: 100%;
             }
         }
@@ -64,7 +64,6 @@ main{
     right: 0;
     bottom: 0;
     z-index: 10;
-    /* display: none;  to show milestone 1*/
     text-align: center;
     img{
         position: absolute;

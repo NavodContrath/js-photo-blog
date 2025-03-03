@@ -1,6 +1,7 @@
 const displayerEl = document.querySelector('.row')
 const overlayEl = document.querySelector('.overlay')
 const closeBtnEl = document.querySelector('button')
+const overlayImageEl = document.querySelector('.overlay img');
 
 fetch('https://lanciweb.github.io/demo/api/pictures/')
     .then(response => response.json())
@@ -8,7 +9,7 @@ fetch('https://lanciweb.github.io/demo/api/pictures/')
     .catch(error => console.log(error))
 
 /**
- * function that create  elements and put it in page
+ * @description function that create  elements and put it in page
  * @param {markup} info 
  */
 function renderCards(info) {
@@ -29,21 +30,22 @@ function renderCards(info) {
         </div>`
         displayerEl.insertAdjacentHTML("beforeend", markup)
     });
-
+    showImage()
+}
+/**
+ * @description function that show the clicked img in page as an overlay
+ * @event click when clicked add overlay
+ */
+function showImage() {
     const cardImgEl = document.querySelectorAll('.card_img')
-    console.log(cardImgEl)
-
     cardImgEl.forEach(img => {
         img.addEventListener('click', () => {
+            overlayImageEl.src = img.src;
             overlayEl.classList.remove('d-none')
-            console.log('clicked')
         })
     })
-
 }
-
 closeBtnEl.addEventListener('click', () => {
     overlayEl.classList.add('d-none');
 });
-
 

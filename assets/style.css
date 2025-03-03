@@ -26,12 +26,11 @@ main{
     .card_1{
         padding: 1rem;
         margin: auto;
-        width: 100%;
-        max-width: 400px;
         background-color: white;    
         position: relative;
         border: 1px solid black;
         box-shadow: 1px 1px;
+        transition: ease 0.3s;
         .card_top{
             #pin{
                 position: absolute;
@@ -42,6 +41,7 @@ main{
             .card_img{
                 max-width: 100%;
             }
+            
         }
         .card_bot{
             h2{
@@ -52,6 +52,15 @@ main{
                 font-family:'Sometype Mono', monospace;
             }
         }
+    }
+    .card_1:hover{
+        cursor:pointer;
+        transform:scale(1.1) rotate(10deg);
+        z-index: 5;
+        box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.5);
+    }
+    .card_1:hover #pin{
+        display: none;
     }
 }
 .overlay{

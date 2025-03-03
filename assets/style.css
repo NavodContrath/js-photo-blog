@@ -20,7 +20,7 @@ header{
 }
 main{ 
     .container_photo{
-        width:75%;
+        width:60%;
         margin:auto;
     }
     .card_1{
@@ -39,8 +39,8 @@ main{
                 left: 50%;
                 transform: translate(-50%,-50%);
             }
-            #dogo{
-                width: 100%;
+            #card_img{
+                max-width: 100%;
             }
         }
         .card_bot{

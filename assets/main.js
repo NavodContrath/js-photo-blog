@@ -8,11 +8,11 @@ fetch('https://lanciweb.github.io/demo/api/pictures/')
 function renderCards(info) {
     info.forEach(card => {
         const markup = `                
-        <div class="col-sm-12 col-md-6 col-lg-4 my-5">
+        <div class="col-sm-12 col-md-6 col-lg-4 my-4">
                 <div class="card_1">
                    <div class="card_top">
-                        <img src="/assets/img/pin.svg" id="pin" alt="pin">
-                        <img src="${card.url}" id="dogo" alt="dog_img">
+                        <img src="./assets/img/pin.svg" id="pin" alt="pin">
+                        <img src="${card.url}" id="card_img" alt="">
                     </div>
                     <div class="card_bot my-2">
                         <div>${card.date}</div>

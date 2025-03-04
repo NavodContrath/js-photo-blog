@@ -70,8 +70,6 @@ main{
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     z-index: 10;
     text-align: center;
     img{
@@ -83,14 +81,21 @@ main{
         border: 3px solid grey;
     }
     button{
-        padding: 0.25rem;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color:lightyellow;
+        padding: 0.3rem 0.5rem;
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+        border-radius: 50% 50%;
+        border: 2px solid white;
+        background-color:rgba(255, 255, 255, 0.13);
         position: absolute;
         top: 15%;
         left: 50%;
         transform: translate(-15%,-50%);
-
+    }
+    button:hover{
+       border-color: red;
+        color: black;
     }
     
 }

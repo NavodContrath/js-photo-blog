@@ -13,7 +13,7 @@ header{
     background-image:url(/assets/img/wall.png);
     padding: 2rem;
     h1{
-        font-size: 5rem;
+        font-size: 3rem;
         font-weight: bold;
         text-align: center;   
     }
@@ -45,7 +45,7 @@ main{
         }
         .card_bot{
             h2{
-                font-weight: 700;
+                font-weight: bold;
             }
             div{
                 color: gray;
@@ -98,4 +98,25 @@ main{
         color: black;
     }
     
+}
+@media screen and (min-width:576px) {
+    header{
+        h1{
+            font-size: 5rem;
+        }
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .card_1{
+        width: 312px;
+    }
+}
+@media screen and (min-width:992px){
+    .card_1{
+        .card_bot{
+            h2{
+                font-size: 1.5rem;
+            }
+        }
+    }
 }

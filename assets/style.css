@@ -7,11 +7,13 @@
 }
 body{
     background-image: url(/assets/img/cork.png);
+    padding-bottom: 2rem;
 }
 /*end-common*/
 header{
     background-image:url(/assets/img/wall.png);
     padding: 2rem;
+    margin-bottom: 2rem;
     h1{
         font-size: 3rem;
         font-weight: bold;
@@ -112,6 +114,11 @@ main{
     }
 }
 @media screen and (min-width:992px){
+    header{
+        h1{
+            font-size: 6rem;
+        }
+    }
     .card_1{
         .card_bot{
             h2{

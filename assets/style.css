@@ -15,7 +15,7 @@ header{
     padding: 2rem;
     margin-bottom: 2rem;
     h1{
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: bold;
         text-align: center;   
     }
@@ -43,7 +43,6 @@ main{
             .card_img{
                 max-width: 100%;
             }
-            
         }
         .card_bot{
             h2{
@@ -96,10 +95,8 @@ main{
         transform: translate(-15%,-50%);
     }
     button:hover{
-       border-color: red;
-        color: black;
-    }
-    
+       border-color: yellowgreen;
+    }   
 }
 @media screen and (min-width:576px) {
     header{

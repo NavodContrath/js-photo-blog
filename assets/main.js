@@ -12,7 +12,7 @@ fetch('https://lanciweb.github.io/demo/api/pictures/')
  * @description function that create  elements and put it in page
  * @param {markup} info 
  */
-function renderCards(info,) {
+function renderCards(info) {
     info.forEach(card => {
         const markup = `                
         <div class="col-sm-12 col-md-6 col-lg-4 my-4">
@@ -39,6 +39,7 @@ function renderCards(info,) {
  */
 function showImage() {
     const cardImgEl = document.querySelectorAll('.card_img')
+    console.log(cardImgEl)
     cardImgEl.forEach(img => {
         img.addEventListener('click', () => {
             overlayImageEl.src = img.src;
